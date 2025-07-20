@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd http://purl.org/dc/elements/1.1/ http://www.opengroup.org/xsd/archimate/3.1/dc.xsd" identifier="id-e3d5d4f2bae7488d9171b19b6f5c368f">
+  <name xml:lang="en">ReferenceModel_APQC_PFC</name>
+  <metadata>
+    <schema>Dublin Core</schema>
+    <schemaversion>1.1</schemaversion>
+    <dc:title>ReferenceModel APQC PFC</dc:title>
+    <dc:subject>Proof of Concept</dc:subject>
+  </metadata>
+  <elements>
+    <element identifier="id-b75256f89e514ac8ac15ddc21f4ec153" xsi:type="BusinessProcess">
+      <name xml:lang="en">1.0 Develop Vision and Strategy</name>
+    </element>
+    <element identifier="id-531a58a9ea944f99be9a03f1d0d412cc" xsi:type="BusinessProcess">
+      <name xml:lang="en">10.0 Acquire, Construct, and Manage Assets</name>
+    </element>
+    <element identifier="id-2a840ada37e84b928d96c6f19c6c21c9" xsi:type="BusinessProcess">
+      <name xml:lang="en">11.0 Manage Enterprise Risk, Compliance, Remediation, and Resiliency</name>
+    </element>
+    <element identifier="id-fc68c669237d4d9e9c08b26527ca85a0" xsi:type="BusinessProcess">
+      <name xml:lang="en">12.0 Manage External Relationships</name>
+    </element>
+    <element identifier="id-5171e0f58c984d048c3ff27322b2815a" xsi:type="BusinessProcess">
+      <name xml:lang="en">13.0 Develop and Manage Business Capabilities</name>
+    </element>
+    <element identifier="id-98b406d35bd442babd1bb561dd0a5318" xsi:type="BusinessProcess">
+      <name xml:lang="en">2.0 Develop and Manage Products and Services</name>
+    </element>
+    <element identifier="id-4ac59adf7ad449c99cfc20f133cc5353" xsi:type="BusinessProcess">
+      <name xml:lang="en">3.0 Market and Sell Products and Services</name>
+    </element>
+    <element identifier="id-f8f38cf44d484c72a10220620d7dc5ef" xsi:type="BusinessProcess">
+      <name xml:lang="en">4.0 Manage Supply Chain for Physical Products</name>
+    </element>
+    <element identifier="id-f5e28952f6534f51b4c58e68fb0bb881" xsi:type="BusinessProcess">
+      <name xml:lang="en">5.0 Deliver Services</name>
+    </element>
+    <element identifier="id-7983f95cf90948a59365023001fb44fc" xsi:type="BusinessProcess">
+      <name xml:lang="en">6.0 Manage Customer Service</name>
+    </element>
+    <element identifier="id-efaba8914bcd4d57a35c6a921e6fd1c7" xsi:type="BusinessProcess">
+      <name xml:lang="en">7.0 Develop and Manage Human Capital</name>
+    </element>
+    <element identifier="id-9e6ca561bc7749199c1cda7b2bfcb7f4" xsi:type="BusinessProcess">
+      <name xml:lang="en">8.0 Manage Information Technology (IT)</name>
+    </element>
+    <element identifier="id-3866610082ac42eba2f1c1803a4324fe" xsi:type="BusinessProcess">
+      <name xml:lang="en">9.0 Manage Fiancial Resources</name>
+    </element>
+    <element identifier="id-b541bbbe6af74478827fcbdd560e5b33" xsi:type="BusinessProcess">
+      <name xml:lang="en">Management and Support Processes</name>
+    </element>
+    <element identifier="id-c5360f69e1e84383ad9a80cab3f84b1f" xsi:type="BusinessProcess">
+      <name xml:lang="en">Operating Processes</name>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="id-113f231382154d08ab2462bf6fecf29f" source="id-c5360f69e1e84383ad9a80cab3f84b1f" target="id-b75256f89e514ac8ac15ddc21f4ec153" xsi:type="Composition" />
+    <relationship identifier="id-4d39985e6ed3478582ae942668063819" source="id-c5360f69e1e84383ad9a80cab3f84b1f" target="id-98b406d35bd442babd1bb561dd0a5318" xsi:type="Composition" />
+    <relationship identifier="id-776663db99b14299b58c6b1b5d56c9f6" source="id-c5360f69e1e84383ad9a80cab3f84b1f" target="id-4ac59adf7ad449c99cfc20f133cc5353" xsi:type="Composition" />
+    <relationship identifier="id-3f133a5d2e024e2ebd59958ff7814e76" source="id-c5360f69e1e84383ad9a80cab3f84b1f" target="id-f8f38cf44d484c72a10220620d7dc5ef" xsi:type="Composition" />
+    <relationship identifier="id-4a2103af269c429b8152a11d077941cb" source="id-c5360f69e1e84383ad9a80cab3f84b1f" target="id-f5e28952f6534f51b4c58e68fb0bb881" xsi:type="Composition" />
+    <relationship identifier="id-aadcd0208262420d9124d749de460a65" source="id-c5360f69e1e84383ad9a80cab3f84b1f" target="id-7983f95cf90948a59365023001fb44fc" xsi:type="Composition" />
+    <relationship identifier="id-220f098d700f4d1a8a4720563f8098b5" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-efaba8914bcd4d57a35c6a921e6fd1c7" xsi:type="Composition" />
+    <relationship identifier="id-fde9fc3183f0438dbb9ff174090ed70c" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-9e6ca561bc7749199c1cda7b2bfcb7f4" xsi:type="Composition" />
+    <relationship identifier="id-21cc124f64db4a1589fb8bf660b49058" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-3866610082ac42eba2f1c1803a4324fe" xsi:type="Composition" />
+    <relationship identifier="id-fda9188e52964505b555de1a9b6a9e1f" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-531a58a9ea944f99be9a03f1d0d412cc" xsi:type="Composition" />
+    <relationship identifier="id-e18cdb170182414d98a372aa2e6d837e" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-2a840ada37e84b928d96c6f19c6c21c9" xsi:type="Composition" />
+    <relationship identifier="id-f44b254652654fd3b8f4993d23b12824" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-fc68c669237d4d9e9c08b26527ca85a0" xsi:type="Composition" />
+    <relationship identifier="id-73787e212b654f1c9cff057cb201d310" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-5171e0f58c984d048c3ff27322b2815a" xsi:type="Composition" />
+    <relationship identifier="id-cdcf8c917d2849c7a501cbeafe717b19" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-c5360f69e1e84383ad9a80cab3f84b1f" xsi:type="Serving" />
+  </relationships>
+  <organizations>
+    <item>
+      <label xml:lang="en">Business</label>
+      <item>
+        <label xml:lang="en">APQC_PFC_L1</label>
+        <item identifierRef="id-b75256f89e514ac8ac15ddc21f4ec153" />
+        <item identifierRef="id-531a58a9ea944f99be9a03f1d0d412cc" />
+        <item identifierRef="id-2a840ada37e84b928d96c6f19c6c21c9" />
+        <item identifierRef="id-fc68c669237d4d9e9c08b26527ca85a0" />
+        <item identifierRef="id-5171e0f58c984d048c3ff27322b2815a" />
+        <item identifierRef="id-98b406d35bd442babd1bb561dd0a5318" />
+        <item identifierRef="id-4ac59adf7ad449c99cfc20f133cc5353" />
+        <item identifierRef="id-f8f38cf44d484c72a10220620d7dc5ef" />
+        <item identifierRef="id-f5e28952f6534f51b4c58e68fb0bb881" />
+        <item identifierRef="id-7983f95cf90948a59365023001fb44fc" />
+        <item identifierRef="id-efaba8914bcd4d57a35c6a921e6fd1c7" />
+        <item identifierRef="id-9e6ca561bc7749199c1cda7b2bfcb7f4" />
+        <item identifierRef="id-3866610082ac42eba2f1c1803a4324fe" />
+      </item>
+      <item>
+        <label xml:lang="en">APQC_PFC</label>
+        <item identifierRef="id-b541bbbe6af74478827fcbdd560e5b33" />
+        <item identifierRef="id-c5360f69e1e84383ad9a80cab3f84b1f" />
+      </item>
+    </item>
+    <item>
+      <label xml:lang="en">Relations</label>
+      <item identifierRef="id-113f231382154d08ab2462bf6fecf29f" />
+      <item identifierRef="id-4d39985e6ed3478582ae942668063819" />
+      <item identifierRef="id-776663db99b14299b58c6b1b5d56c9f6" />
+      <item identifierRef="id-3f133a5d2e024e2ebd59958ff7814e76" />
+      <item identifierRef="id-4a2103af269c429b8152a11d077941cb" />
+      <item identifierRef="id-aadcd0208262420d9124d749de460a65" />
+      <item identifierRef="id-220f098d700f4d1a8a4720563f8098b5" />
+      <item identifierRef="id-fde9fc3183f0438dbb9ff174090ed70c" />
+      <item identifierRef="id-21cc124f64db4a1589fb8bf660b49058" />
+      <item identifierRef="id-fda9188e52964505b555de1a9b6a9e1f" />
+      <item identifierRef="id-e18cdb170182414d98a372aa2e6d837e" />
+      <item identifierRef="id-f44b254652654fd3b8f4993d23b12824" />
+      <item identifierRef="id-73787e212b654f1c9cff057cb201d310" />
+      <item identifierRef="id-cdcf8c917d2849c7a501cbeafe717b19" />
+    </item>
+    <item>
+      <label xml:lang="en">Views</label>
+      <item identifierRef="id-ec8968b09c164ee1adfe8490d963c46c" />
+    </item>
+  </organizations>
+  <views>
+    <diagrams>
+      <view identifier="id-ec8968b09c164ee1adfe8490d963c46c" xsi:type="Diagram">
+        <name xml:lang="en">L1</name>
+        <node identifier="id-d9e0990324434a5bb61a5b4d48ab1f72" elementRef="id-c5360f69e1e84383ad9a80cab3f84b1f" xsi:type="Element" x="24" y="60" w="805" h="120">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Arial" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-dcada6ef9c2b494ea00e2578bd61c859" elementRef="id-b75256f89e514ac8ac15ddc21f4ec153" xsi:type="Element" x="36" y="96" w="120" h="68">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-f8f7b6df3f714d03b72ff724c1ab10ab" elementRef="id-98b406d35bd442babd1bb561dd0a5318" xsi:type="Element" x="168" y="95" w="120" h="69">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-2544de567893452a85ea97504406ae0c" elementRef="id-4ac59adf7ad449c99cfc20f133cc5353" xsi:type="Element" x="300" y="95" w="120" h="69">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-7677efba88e34248b1a457d639f88352" elementRef="id-f8f38cf44d484c72a10220620d7dc5ef" xsi:type="Element" x="432" y="95" w="120" h="69">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-87a640f3396a4e2ea7462d21b7ddf952" elementRef="id-f5e28952f6534f51b4c58e68fb0bb881" xsi:type="Element" x="564" y="95" w="120" h="69">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-0118d759fced4524ab6d740e2659482a" elementRef="id-7983f95cf90948a59365023001fb44fc" xsi:type="Element" x="696" y="96" w="120" h="68">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <node identifier="id-c4eddb9f3d70478c981582d1c66b66a0" elementRef="id-b541bbbe6af74478827fcbdd560e5b33" xsi:type="Element" x="24" y="204" w="805" h="288">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Arial" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <node identifier="id-ab4c2b95aa224bffb72426f0ae2b2918" elementRef="id-efaba8914bcd4d57a35c6a921e6fd1c7" xsi:type="Element" x="36" y="240" w="780" h="24">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-ea1b59ef39364343acbb6871b1062551" elementRef="id-9e6ca561bc7749199c1cda7b2bfcb7f4" xsi:type="Element" x="36" y="276" w="780" h="24">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-eb27ed944e5f42aa88326d6d63e5782b" elementRef="id-3866610082ac42eba2f1c1803a4324fe" xsi:type="Element" x="36" y="312" w="780" h="24">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-3aa4fac759a84012ad08181544c26a7b" elementRef="id-531a58a9ea944f99be9a03f1d0d412cc" xsi:type="Element" x="36" y="348" w="780" h="24">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-1b7a5eca82d242e088fc1a88f8d80403" elementRef="id-2a840ada37e84b928d96c6f19c6c21c9" xsi:type="Element" x="36" y="384" w="780" h="24">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-b5c8ad7fb277496393b558e07136a1e6" elementRef="id-fc68c669237d4d9e9c08b26527ca85a0" xsi:type="Element" x="36" y="420" w="780" h="24">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+          <node identifier="id-d61e19bdef67413f8f479028a4e41270" elementRef="id-5171e0f58c984d048c3ff27322b2815a" xsi:type="Element" x="36" y="456" w="780" h="24">
+            <style>
+              <fillColor r="255" g="255" b="181" a="100" />
+              <lineColor r="92" g="92" b="92" a="100" />
+              <font name="Arial" size="12">
+                <color r="0" g="0" b="0" />
+              </font>
+            </style>
+          </node>
+        </node>
+        <connection identifier="id-b010bd6aaf19470c870fb67ca7712068" relationshipRef="id-cdcf8c917d2849c7a501cbeafe717b19" xsi:type="Relationship" source="id-c4eddb9f3d70478c981582d1c66b66a0" target="id-d9e0990324434a5bb61a5b4d48ab1f72">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+      </view>
+    </diagrams>
+  </views>
+</model>

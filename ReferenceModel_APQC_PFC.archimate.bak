@@ -40,7 +40,7 @@
     <element xsi:type="archimate:ServingRelationship" id="id-cdcf8c917d2849c7a501cbeafe717b19" source="id-b541bbbe6af74478827fcbdd560e5b33" target="id-c5360f69e1e84383ad9a80cab3f84b1f"/>
   </folder>
   <folder name="Views" id="id-7a5209f38d0d46c5b773563c1b453f93" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-ec8968b09c164ee1adfe8490d963c46c">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="L1" id="id-ec8968b09c164ee1adfe8490d963c46c">
       <child xsi:type="archimate:DiagramObject" id="id-d9e0990324434a5bb61a5b4d48ab1f72" targetConnections="id-b010bd6aaf19470c870fb67ca7712068" archimateElement="id-c5360f69e1e84383ad9a80cab3f84b1f">
         <bounds x="24" y="60" width="805" height="120"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a74748ad69034b6ca1a658a132bbffaf" source="id-d9e0990324434a5bb61a5b4d48ab1f72" target="id-dcada6ef9c2b494ea00e2578bd61c859" archimateRelationship="id-113f231382154d08ab2462bf6fecf29f"/>
