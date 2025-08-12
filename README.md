@@ -49,3 +49,6 @@ graph TD
     style F fill:#555,stroke:#333,stroke-width:2px
 
 ```
+
+TODOs:
+- https://neo4j.com/blog/genai/what-is-graphrag/
