@@ -23,25 +23,29 @@ graph TD
         D1[A local Large Language Model used for specific tasks. This could be utilized for natural language processing or other machine learning tasks.]
     end
 
+    subgraph AI Agent
+        F[AI Agent]
+        F1[An AI agent that translates text input to Cypher and calls the Neo4j database.]
+    end
+
     subgraph Styling
         E[Tailwind CSS]
         E1[Tailwind CSS is used for styling the frontend application. It is a utility-first CSS framework that makes it easy to create consistent and responsive designs.]
     end
 
-    A --> A1
-    B --> B1
-    C --> C1
-    D --> D1
-    E --> E1
+
 
     A --> B
-    B --> C
-    B --> D
+    B --> F
     A --> E
+    F --> C
+    F --> D
 
     style A fill:#555,stroke:#333,stroke-width:2px
     style B fill:#555,stroke:#333,stroke-width:2px
     style C fill:#555,stroke:#333,stroke-width:2px
     style D fill:#555,stroke-width:2px
     style E fill:#555,stroke:#333,stroke-width:2px
+    style F fill:#555,stroke:#333,stroke-width:2px
+
 ```
