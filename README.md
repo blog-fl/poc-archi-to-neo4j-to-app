@@ -13,6 +13,11 @@ graph TD
         B1[The backend is built with Python and FastAPI. FastAPI is a modern web framework for Python that offers high performance and easy API creation.]
     end
 
+    subgraph Requirement Management
+        RFP[List of Requirements]
+        B1[...]
+    end
+
     subgraph Database
         C[Neo4j as GraphDB]
         C1[The database is a graph database that can be used both online and offline. Neo4j is a powerful graph database optimized for complex relationships and queries.]
@@ -40,6 +45,7 @@ graph TD
     A --> E
     F --> C
     F --> D
+    B --> RFP
 
     style A fill:#555,stroke:#333,stroke-width:2px
     style B fill:#555,stroke:#333,stroke-width:2px
@@ -47,6 +53,7 @@ graph TD
     style D fill:#555,stroke-width:2px
     style E fill:#555,stroke:#333,stroke-width:2px
     style F fill:#555,stroke:#333,stroke-width:2px
+    style RFP fill:#555,stroke:#333,stroke-width:2px
 
 ```
 
