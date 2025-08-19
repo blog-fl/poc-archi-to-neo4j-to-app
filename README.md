@@ -18,6 +18,11 @@ graph TD
         RFP1[...]
     end
 
+    subgraph Archi
+        ARCHI[Archi-Models]
+        ARCHI1[...]
+    end
+
     subgraph Database
         C[Neo4j as GraphDB]
         C1[The database is a graph database that can be used both online and offline. Neo4j is a powerful graph database optimized for complex relationships and queries.]
@@ -46,6 +51,7 @@ graph TD
     F --> C
     F --> D
     B --> RFP
+    ARCHI --> C
 
     style A fill:#555,stroke:#333,stroke-width:2px
     style B fill:#555,stroke:#333,stroke-width:2px
