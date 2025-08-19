@@ -15,7 +15,7 @@ graph TD
 
     subgraph Requirement Management
         RFP[List of Requirements]
-        B1[...]
+        RFP1[...]
     end
 
     subgraph Database
